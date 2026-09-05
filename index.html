@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AJU PHARMA POINT — pharmacy study hub for notes, books, syllabus, assignments, PPTs, PYQs and AI learning.">
+  <title>AJU PHARMA POINT | Pharmacy Study Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div><div class="bg-orb orb-two"></div>
+  <header class="nav">
+    <a class="brand" href="index.html"><span class="brand-mark">⚕</span><span>AJU <b>PHARMA</b> POINT</span></a>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="#study">Study Hub</a>
+      <a href="#ai">Malik AI</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☾</button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow">B.PHARMACY • STUDY • RESOURCES • AI</div>
+        <h1>Your <span>Pharmacy</span><br>learning hub.</h1>
+        <p>Notes, books, syllabus, assignments, PPTs, practicals and exam resources — organized in one clean place.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#study">Explore Study Hub →</a>
+          <a class="btn ghost" href="#ai">Open Malik AI</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>8</strong><span>Semesters</span></div>
+          <div><strong>24/7</strong><span>Access</span></div>
+          <div><strong>Free</strong><span>Platform</span></div>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-glow"></div>
+        <div class="avatar">M</div>
+        <div class="profile-tag">PHARMACY STUDENT</div>
+        <h2>Mohammad Saba Uddin<br><span>(Malik)</span></h2>
+        <p>B.Pharmacy • ARKA JAIN University</p>
+        <div class="mini-line"><span>●</span> Building a better study space for pharmacy students.</div>
+      </div>
+    </section>
+
+    <section class="container quick">
+      <div class="section-heading"><div><div class="eyebrow">QUICK ACCESS</div><h2>Everything you need.</h2></div></div>
+      <div class="quick-grid">
+        <a class="quick-card" href="#study"><span>📚</span><div><b>Study Hub</b><small>Semester resources</small></div><i>→</i></a>
+        <a class="quick-card" href="#ai"><span>🤖</span><div><b>Malik AI</b><small>Study assistant</small></div><i>→</i></a>
+        <a class="quick-card" href="https://aju.mastersofterp.in/" target="_blank" rel="noopener"><span>🎓</span><div><b>AJU ERP</b><small>University portal</small></div><i>↗</i></a>
+        <a class="quick-card" href="resources.html"><span>🧪</span><div><b>Resources</b><small>Practicals & PYQs</small></div><i>→</i></a>
+      </div>
+    </section>
+
+    <section id="study" class="container section">
+      <div class="section-heading">
+        <div><div class="eyebrow">STUDY HUB</div><h2>Choose your semester.</h2></div>
+        <div class="search-wrap"><span>⌕</span><input id="search" placeholder="Search semester or subject..."></div>
+      </div>
+      <div class="semester-grid" id="semesterGrid"></div>
+      <p id="noResults" class="no-results" hidden>No matching semester found.</p>
+    </section>
+
+    <section id="ai" class="container ai-section">
+      <div class="ai-card">
+        <div class="ai-icon">✦</div>
+        <div class="ai-copy">
+          <div class="eyebrow">MALIK AI</div>
+          <h2>Your pharmacy study assistant.</h2>
+          <p>Ask questions, understand difficult concepts, revise faster and use AI as a study companion.</p>
+          <a class="btn primary" href="https://mediafiles.botpress.cloud/" target="_blank" rel="noopener">Launch Malik AI ↗</a>
+        </div>
+        <div class="ai-orbit">AI</div>
+      </div>
+    </section>
+
+    <section class="container feature-section">
+      <div class="section-heading"><div><div class="eyebrow">COMING NEXT</div><h2>Built for smarter studying.</h2></div></div>
+      <div class="feature-grid">
+        <div class="feature"><span>🔎</span><h3>Smart Search</h3><p>Find resources quickly across the study hub.</p></div>
+        <div class="feature"><span>🧠</span><h3>MCQ Practice</h3><p>Prepare with quizzes and previous-year questions.</p></div>
+        <div class="feature"><span>💊</span><h3>Drug Database</h3><p>Quick educational drug and pharmacology references.</p></div>
+        <div class="feature"><span>📈</span><h3>Progress Tracker</h3><p>Track units, revision and exam preparation.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a class="brand" href="index.html"><span class="brand-mark">⚕</span><span>AJU <b>PHARMA</b> POINT</span></a><p>Learn • Practice • Research</p></div>
+      <div class="footer-links"><a href="about.html">About</a><a href="resources.html">Resources</a><a href="#ai">Malik AI</a></div>
+    </div>
+    <div class="container copyright">© 2026 AJU PHARMA POINT • Educational platform</div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
